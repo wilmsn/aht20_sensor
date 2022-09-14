@@ -15,15 +15,15 @@ The library works with fixed settings only. They are changable in the header fil
 So the use of this library is as easy as:
 
 Open an Instanz of this library:
-
+```
  AHT20 aht20;
-
+```
 inside "setup" call the begin function:
-
+```
   aht20.begin();
-
+```
 inside loop() do the following steps:
-
+```
   // Tell the sensor to collect the measurements
   aht20.startSingleMeasure();
   // Make sure to wait at least 10 milliseconds
@@ -34,6 +34,6 @@ inside loop() do the following steps:
   Serial.print(" C        HUmidity: ");
   Serial.print(aht20.getHumidity());
   Serial.println(" RH");
-
+```
 State of this library: Testing!
 
