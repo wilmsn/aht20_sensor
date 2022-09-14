@@ -14,8 +14,10 @@ The library works with fixed settings only. They are changable in the header fil
 
 So the use of this library is as easy as:
 
-Open an Instanz of this library:
+Include this library and open an Instanz of this:
 ```
+ #include <aht20_sensor.h>
+
  AHT20 aht20;
 ```
 inside "setup" call the begin function:
