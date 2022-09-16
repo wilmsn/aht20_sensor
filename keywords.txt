@@ -6,16 +6,16 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-AHT20                       KEYWORD1
+AHT20                            KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
 
+begin                              KEYWORD2
 getTemperature              KEYWORD2
-getHumidity	            KEYWORD2
-startSingleMeasure	    KEYWORD2
-getStatReg                  KEYWORD2
+getHumidity	                   KEYWORD2
+startSingleMeasure	       KEYWORD2
 
 #######################################
 # Instances (KEYWORD2)
